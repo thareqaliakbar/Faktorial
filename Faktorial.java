@@ -5,7 +5,7 @@ public class Faktorial {
 		int n = 12/2;
 		for(int i=1;i<=n;i++){
 			for(int k=n;k>i;k--){
-				System.out.print(" ");
+				System.out.print("0");
 			}
 			for(int j=1;j<=l;j++){
 				System.out.print("+");
@@ -18,7 +18,7 @@ public class Faktorial {
 		 
 		for(int i=(n-1);i>=1;i--){
 			for(int k=i;k<=(n-1);k++){
-				System.out.print(" ");
+				System.out.print("0");
 			}
 			for(int j=l;j>=1;j--){
 				System.out.print("+");
